@@ -15,7 +15,7 @@ getFirstStr (Str text:_      ) = Just text
 getFirstStr (_       :inlines) = getFirstStr inlines
 
 newline :: [Inline]
-newline = [LineBreak, LineBreak]
+newline = [LineBreak]
 
 -- This could be implemented more concisely, but I think this is more clear.
 getThenIncr :: State Int Int
