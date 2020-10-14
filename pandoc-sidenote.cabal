@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c6a31ecb31c271c2d06018cbb86b934912434626381e9a61ea909a838aaa6963
+-- hash: ecd1b9f2f610b22193a05a56231e3e1e6aef62876dce0f2883f990e2aff5c942
 
 name:           pandoc-sidenote
 version:        0.20.0.0
@@ -34,7 +34,7 @@ library
   build-depends:
       base >=4.7 && <5
     , mtl
-    , pandoc-types >=1.20
+    , pandoc-types >=1.22
     , text
   exposed-modules:
       Text.Pandoc.SideNote
@@ -51,7 +51,7 @@ executable pandoc-sidenote
       base >=4.7 && <5
     , mtl
     , pandoc-sidenote
-    , pandoc-types >=1.20
+    , pandoc-types >=1.22
     , text
   other-modules:
       Paths_pandoc_sidenote
